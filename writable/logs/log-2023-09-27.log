@@ -1,0 +1,56 @@
+CRITICAL - 2023-09-27 00:48:28 --> Invalid file: "players.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('players.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('players', [], true)
+ 3 APPPATH\Controllers\MusicController.php(12): view('players')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab2\\public\\index.php')
+CRITICAL - 2023-09-27 01:44:14 --> Undefined variable $playlists
+in APPPATH\Views\player.php on line 14.
+ 1 APPPATH\Views\player.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $playlists', 'C:\\laragon\\www\\lab2\\app\\Views\\player.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab2\\app\\Views\\player.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 5 APPPATH\Controllers\MusicController.php(12): view('player')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab2\\public\\index.php')
+CRITICAL - 2023-09-27 02:40:17 --> Invalid file: "player.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('player.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('player', [], true)
+ 3 APPPATH\Controllers\MusicController.php(12): view('player')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab2\\public\\index.php')
+CRITICAL - 2023-09-27 02:45:13 --> Undefined variable $product
+in APPPATH\Views\main_page.php on line 33.
+ 1 APPPATH\Views\main_page.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lab2\\app\\Views\\main_page.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab2\\app\\Views\\main_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main_page', [], true)
+ 5 APPPATH\Controllers\MusicController.php(12): view('main_page')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab2\\public\\index.php')
+CRITICAL - 2023-09-27 02:45:21 --> Undefined variable $product
+in APPPATH\Views\main_page.php on line 33.
+ 1 APPPATH\Views\main_page.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $product', 'C:\\laragon\\www\\lab2\\app\\Views\\main_page.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\lab2\\app\\Views\\main_page.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main_page', [], true)
+ 5 APPPATH\Controllers\MusicController.php(12): view('main_page')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MusicController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MusicController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\lab2\\public\\index.php')
