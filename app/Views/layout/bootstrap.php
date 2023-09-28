@@ -18,7 +18,6 @@
             padding: 20px;
         }
         
-
         #player-container {
             max-width: 400px;
             margin: 0 auto;
